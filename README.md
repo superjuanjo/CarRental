@@ -65,7 +65,8 @@ int costOfRenting = rentACar(
   
 En el ejemplo de arriba, el cliente "Pepe" alquila un "BMW 7" por 2 días        	
 
-int costOfRenting = rentACar("Juan",//name of the client
+int costOfRenting = rentACar("Juan",
+
             			{
                 			renting("BMW 7", 2),
                 			renting("KIA Sorrento", 4)
