@@ -45,10 +45,12 @@ Lo mismo para coches tipo "Small"
 
 Una vez compilado el proyecto .DLL, se puede ejecutar el proyecto de prueba "CarRental"
 Básicamente, hay 5 funciones útiles:
-- initialize():
+- initialize();
+  
 Como su nombre indica, inicializa todo, y devuelve un valor bool indicando si se ha inicializado bien o no
 
-- rentACar():
+- rentACar();
+  
 Alquila un coche, y devuelve el coste
 Un usuario puede alquilar uno o varios coches:
 int costOfRenting = rentACar(
