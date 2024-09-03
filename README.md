@@ -101,7 +101,7 @@ x tendrá la cantidad de coches "BMW 7" disponibles
 
 
 - getRentedCarsBy();
-- 
+  
 Devuelve un vector de strings con todos los coches alquilados por un cliente, por ejemplo:
 
 
