@@ -53,6 +53,8 @@ Como su nombre indica, inicializa todo, y devuelve un valor bool indicando si se
   
 Alquila un coche, y devuelve el coste
 Un usuario puede alquilar uno o varios coches:
+
+
 int costOfRenting = rentACar(
                              "Pepe",//name of the client
                              {
