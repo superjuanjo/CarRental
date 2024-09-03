@@ -92,6 +92,8 @@ En este caso, "Juan" devolvería un "KIA Sorrento" la fecha del 3 de Septiembre 
 En ambos casos, si el valor de retorno es -1, implica un error: Generalmente que el usuario o el coche no existan en la lista de coches alquilados
 
 
+
+
 - getAvailableCars();
 Devuelve el numero de coches disponibles de un determinado modelo, por ejemplo:
 
