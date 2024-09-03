@@ -1,0 +1,9 @@
+﻿  pch.cpp
+  carRental.cpp
+  DateHelper.cpp
+  dllmain.cpp
+  Generating Code...
+     Creating library C:\Projects\CarRentalDLL\x64\Debug\CarRentalDLL.lib and object C:\Projects\CarRentalDLL\x64\Debug\CarRentalDLL.exp
+  CarRentalDLL.vcxproj -> C:\Projects\CarRentalDLL\x64\Debug\CarRentalDLL.dll
+  ..\x64\Debug\CarRentalDLL.dll
+  1 File(s) copied

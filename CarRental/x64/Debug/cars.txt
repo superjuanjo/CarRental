@@ -1,0 +1,6 @@
+BMW 7, 4
+KIA Sorrento, 5
+Seat Ibiza, 10
+Volkswagen Passat, 2
+Volvo EX30, 1
+Renault Clio, 6

@@ -1,0 +1,17 @@
+﻿  pch.cpp
+  carRental.cpp
+C:\Projects\CarRentalDLL\CarRentalDLL\carRental.cpp(15,6): warning C4273: 'fibonacci_init': inconsistent dll linkage
+C:\Projects\CarRentalDLL\CarRentalDLL\carRental.h(24,33): message : see previous definition of 'fibonacci_init'
+C:\Projects\CarRentalDLL\CarRentalDLL\carRental.cpp(26,6): warning C4273: 'fibonacci_next': inconsistent dll linkage
+C:\Projects\CarRentalDLL\CarRentalDLL\carRental.h(30,33): message : see previous definition of 'fibonacci_next'
+C:\Projects\CarRentalDLL\CarRentalDLL\carRental.cpp(47,20): warning C4273: 'fibonacci_current': inconsistent dll linkage
+C:\Projects\CarRentalDLL\CarRentalDLL\carRental.h(33,47): message : see previous definition of 'fibonacci_current'
+C:\Projects\CarRentalDLL\CarRentalDLL\carRental.cpp(53,10): warning C4273: 'fibonacci_index': inconsistent dll linkage
+C:\Projects\CarRentalDLL\CarRentalDLL\carRental.h(36,37): message : see previous definition of 'fibonacci_index'
+  dllmain.cpp
+     Creating library C:\Projects\CarRentalDLL\x64\Release\CarRentalDLL.lib and object C:\Projects\CarRentalDLL\x64\Release\CarRentalDLL.exp
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 7 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  CarRentalDLL.vcxproj -> C:\Projects\CarRentalDLL\x64\Release\CarRentalDLL.dll
