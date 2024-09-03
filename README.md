@@ -52,21 +52,20 @@ Como su nombre indica, inicializa todo, y devuelve un valor bool indicando si se
 Alquila un coche, y devuelve el coste
 Un usuario puede alquilar uno o varios coches:
 int costOfRenting = rentACar(
-					            "Pepe",//name of the client
-            					{
-                					renting("BMW 7", 2),
-            					}
-        					);
+                             "Pepe",//name of the client
+                             {
+                	      renting("BMW 7", 2),
+                             }
+                            );
   
 En el ejemplo de arriba, el cliente "Pepe" alquila un "BMW 7" por 2 días        	
 
-int costOfRenting = rentACar(
-					            "Juan",//name of the client
-            					{
-                					renting("BMW 7", 2),
-                					renting("KIA Sorrento", 4)
-            					}
-        					);	
+int costOfRenting = rentACar("Juan",//name of the client
+            			{
+                			renting("BMW 7", 2),
+                			renting("KIA Sorrento", 4)
+				}
+			     );	
 	     
 En este caso, el cliente "Juan" alquila dos coches: Un BMW 7 por dos días, y un KIA Sorrento por 4 días
 
@@ -86,6 +85,7 @@ En ambos casos, si el valor de retorno es -1, implica un error: Generalmente que
 
 - getAvailableCars();
 Devuelve el numero de coches disponibles de un determinado modelo, por ejemplo:
+
 int x = getAvailableCars("BMW 7");
 x tendrá la cantidad de coches "BMW 7" disponibles
 
