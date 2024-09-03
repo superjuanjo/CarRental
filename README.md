@@ -81,9 +81,12 @@ Devuelve un coche:
 Esta función tiene dos parámetros obligatorios, y uno opcional
 
 int extraCost = returnACar("Pepe", "BMW 7");
+
 En este caso, "Pepe" devuelve un coche "BMW 7" en la fecha actual
 
+
 int extraCost = returnACar("Juan", "KIA Sorrento", new Date(3, 9, 2024));
+
 En este caso, "Juan" devolvería un "KIA Sorrento" la fecha del 3 de Septiembre de 2024
 
 En ambos casos, si el valor de retorno es -1, implica un error: Generalmente que el usuario o el coche no existan en la lista de coches alquilados
@@ -93,15 +96,18 @@ En ambos casos, si el valor de retorno es -1, implica un error: Generalmente que
 Devuelve el numero de coches disponibles de un determinado modelo, por ejemplo:
 
 int x = getAvailableCars("BMW 7");
+
 x tendrá la cantidad de coches "BMW 7" disponibles
 
 
 - getRentedCarsBy();
+- 
 Devuelve un vector de strings con todos los coches alquilados por un cliente, por ejemplo:
 
-rentACar("Pepe",//name of the client
+
+rentACar("Pepe",
+
             {
-                //each client can rent many cars... for each entry, specify the car name and the ammount of days
                 renting("BMW 7", 2),
                 renting("KIA Sorrento", 4)
             }
@@ -109,6 +115,7 @@ rentACar("Pepe",//name of the client
 
 Despues de ejecutar la función de arriba, al ejecutar la siguiente:
 vector<string> mycars = getRentedCarsBy("Pepe");
+
 el vector "mycars" contendrá dos valores: "BMW 7" y "KIA Sorrento"
 
 y si hacemos
