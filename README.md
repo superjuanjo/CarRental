@@ -57,6 +57,7 @@ int costOfRenting = rentACar(
                 					renting("BMW 7", 2),
             					}
         					);
+  
 En el ejemplo de arriba, el cliente "Pepe" alquila un "BMW 7" por 2 días        	
 
 int costOfRenting = rentACar(
@@ -65,7 +66,8 @@ int costOfRenting = rentACar(
                 					renting("BMW 7", 2),
                 					renting("KIA Sorrento", 4)
             					}
-        					);				
+        					);	
+	     
 En este caso, el cliente "Juan" alquila dos coches: Un BMW 7 por dos días, y un KIA Sorrento por 4 días
 
 
