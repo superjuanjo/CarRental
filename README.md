@@ -56,7 +56,8 @@ Un usuario puede alquilar uno o varios coches:
 
 
 int costOfRenting = rentACar(
-                             "Pepe",//name of the client
+
+                             "Pepe",
                              {
                 	      renting("BMW 7", 2),
                              }
